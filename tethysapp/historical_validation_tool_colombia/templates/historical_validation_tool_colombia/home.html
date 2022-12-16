@@ -96,7 +96,7 @@
 {% block after_app_content %}
   <!----Observed Data ----->
   <div class="modal fade" id="obsgraph" tabindex="-1" role="dialog" aria-labelledby="about-modal-label">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-xl" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-d-none="true">&times;</span></button> -->
@@ -110,7 +110,6 @@
             </div>
             <div id="interaction"></div>
           </div>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         
         <div class="modal-body">
@@ -123,7 +122,7 @@
           </ul>
           <!-- Tab panes -->
           <div class="tab-content">
-            <!-- Hidrograph panel -->>
+            <!-- Hidrograph panel -->
             <div role="tabpanel" class="tab-pane active" id="hydrographs">
               <div class="panel panel-default">
                 <div class="panel-body">
@@ -312,11 +311,12 @@
   </div>
   <!-- About Modal -->
   <div class="modal fade" id="help-modal" tabindex="-1" role="dialog" aria-labelledby="help-modal-label">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           <h5 class="modal-title" id="help-modal-label">Historical Validation Tool Colombia</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
         </div>
         <div class="modal-body">
           <p>La app <strong>Historical Validation Tool personalizada para Colombia</strong> es una 
